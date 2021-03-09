@@ -1,4 +1,6 @@
-package com.epam.javabasic.algorithmictasks;
+package com.epam.javabasic.algorithmictasks.impl;
+
+import com.epam.javabasic.algorithmictasks.IArrayProcessor;
 
 import java.util.List;
 
@@ -11,7 +13,7 @@ import java.util.List;
  *
  * Created by anton_chyrko on 9/24/20.
  */
-public class ArrayProcessor {
+public class ArrayProcessor implements IArrayProcessor {
 
 	/**
 	 * Find the second by length string in a list.
@@ -24,6 +26,7 @@ public class ArrayProcessor {
 	 * @param list - input data
 	 * @return second by length string in the input list
 	 */
+	@Override
 	public String getSecondStringByLength(List<String> list) {
 		throw new UnsupportedOperationException("You need to implement this method");
 	}
@@ -40,6 +43,7 @@ public class ArrayProcessor {
 	 * @param list - input data
 	 * @return sort list by string length
 	 */
+	@Override
 	public List<String> getSortedListByLength(List<String> list) {
 		throw new UnsupportedOperationException("You need to implement this method");
 	}
@@ -57,6 +61,7 @@ public class ArrayProcessor {
 	 * @param list - input data
 	 * @return sort list by string length
 	 */
+	@Override
 	public List<String> getSortedListByCountOfVowels(List<String> list) {
 		throw new UnsupportedOperationException("You need to implement this method");
 	}
@@ -74,6 +79,7 @@ public class ArrayProcessor {
 	 * @param list - input data
 	 * @return sort list by string length
 	 */
+	@Override
 	public List<String> getSortedListByCountOfConsonants(List<String> list) {
 		throw new UnsupportedOperationException("You need to implement this method");
 	}
@@ -90,6 +96,7 @@ public class ArrayProcessor {
 	 * @param list - input data
 	 * @return sort list by string length
 	 */
+	@Override
 	public List<String> changeByPlacesFirstAndLastSymbolsInEachSecondStringOfList(List<String> list) {
 		throw new UnsupportedOperationException("You need to implement this method");
 	}
@@ -106,6 +113,7 @@ public class ArrayProcessor {
 	 * @param list - input data
 	 * @return sort list by string length
 	 */
+	@Override
 	public List<String> revertStringsOfList(List<String> list) {
 		throw new UnsupportedOperationException("You need to implement this method");
 	}
