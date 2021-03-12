@@ -10,7 +10,7 @@ import static java.util.Arrays.asList;
 class ArrayProcessorTests extends AbstractTest {
 
     @Test
-    void testChangeByPlacesFirstAndLastLettersInEachSecondStringOfList() {
+    void shouldChangeByPlacesFirstAndLastLettersInEachSecondStringOfList() {
         List<String> inputList = asList("bb", "ab1", "b", "Bab3", "bb333B", "bB333", "b3b", "bb", "b3b", "b");
         List<String> expectedList = asList("bb", "1ba", "b", "3abB", "bb333B", "3B33b", "b3b", "bb", "b3b", "b");
 
@@ -20,7 +20,7 @@ class ArrayProcessorTests extends AbstractTest {
     }
 
     @Test
-    void testRevertStringsOfList() {
+    void shouldRevertStringsOfList() {
         List<String> inputList = asList("bb", "ab1", "b", "Bab3", "bb33 3B", "bB333", "b3b");
         List<String> expectedList = asList("bb", "1ba", "b", "3baB", "B3 33bb", "333Bb", "b3b");
 
@@ -30,7 +30,7 @@ class ArrayProcessorTests extends AbstractTest {
     }
 
     @Test
-    void testSecondStringByLength() {
+    void shouldFindSecondStringByLength() {
         List<String> inputList = asList("a", "aa", "a3a", "aa333", "aa1", "aa333", "aa33", "aa3", "1234567890", "aa");
 
         String expectedString = "aa333";
@@ -41,7 +41,7 @@ class ArrayProcessorTests extends AbstractTest {
     }
 
     @Test
-    void testSortedListByCountOfConsonants() {
+    void shouldSortListByCountOfConsonants() {
         List<String> inputList = asList("bb", "ab1", "b", "Bb3", "bb333B", "bB333", "b3b", "bb");
         List<String> expectedList = asList("ab1", "b", "Bb3", "b3b", "bB333", "bb", "bb", "bb333B");
 
@@ -51,7 +51,7 @@ class ArrayProcessorTests extends AbstractTest {
     }
 
     @Test
-    void testSortedListByCountOfVowels() {
+    void shouldSortListByCountOfVowels() {
         List<String> inputList = asList("aA33", "aa", "ba1", "a", "Aa3", "aa333A", "aA332", "a3a", "aa");
         List<String> expectedList = asList("a", "ba1", "Aa3", "a3a", "aA33", "aA332", "aa", "aa", "aa333A");
 
@@ -61,7 +61,7 @@ class ArrayProcessorTests extends AbstractTest {
     }
 
     @Test
-    void testSortedListByLength() {
+    void shouldSortListByLength() {
         List<String> inputList = asList("aa", "a", "a3a", "aa333", "ba1", "aa333", "aa33", "Aa3", "aa");
         List<String> expectedList = asList("a", "aa", "aa", "a3a", "ba1", "Aa3", "aa33", "aa333", "aa333");
 
