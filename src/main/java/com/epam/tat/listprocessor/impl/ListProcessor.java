@@ -1,6 +1,6 @@
-package com.epam.javabasic.algorithmictasks.impl;
+package com.epam.tat.listprocessor.impl;
 
-import com.epam.javabasic.algorithmictasks.IListProcessor;
+import com.epam.tat.listprocessor.IListProcessor;
 
 import java.util.List;
 
@@ -11,7 +11,6 @@ import java.util.List;
  * In case of incorrect input values or inability to perform an action, the method should throw an appropriate
  * exception.
  *
- * Created by anton_chyrko on 9/24/20.
  */
 public class ListProcessor implements IListProcessor {
 

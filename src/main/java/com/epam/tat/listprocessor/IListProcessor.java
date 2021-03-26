@@ -1,12 +1,7 @@
-package com.epam.javabasic.algorithmictasks;
+package com.epam.tat.listprocessor;
 
 import java.util.List;
 
-/**
- * Please, see readme.md file! All detailed instructions are laid there.
- * <p>
- * Created by anton_chyrko on 12/21/20.
- */
 public interface IListProcessor {
 
 	String getSecondStringByLength(List<String> list);

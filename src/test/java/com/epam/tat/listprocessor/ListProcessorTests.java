@@ -1,4 +1,4 @@
-package com.epam.javabasic.algorithmictasks;
+package com.epam.tat.listprocessor;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

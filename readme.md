@@ -1,8 +1,19 @@
-# Function Description:
-Complete the functions below. All methods must work with list of String. Еo facilitate work all words can be consist of
-numbers and uppercase and lowercase letters of the English alphabet. No any special symbols.
+# List processor
 
-In case of incorrect input values or inability to perform an action, the method should throw the ListProcessorException
+### Goals
+- Practice in collections processing.
+- Practice in java stream API.
+
+### Short description
+Implement functions to process collection. All methods must work with list of String. To facilitate work all string can contain
+numbers and letters of the English alphabet in upper or lower case (no special symbols).
+In case of incorrect input values or inability to perform an action, the method should throw exception.
+
+Please see readme.md  file in skeleton repository for detailed instructions.
+
+
+### Detailed description
+In case of incorrect input values or inability to perform an action, the method should throw the `ListProcessorException.java`
 exception.
 
 ## String getSecondStringByLength(List<String> list);
