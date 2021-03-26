@@ -7,7 +7,7 @@ import java.util.List;
 
 import static java.util.Arrays.asList;
 
-class ArrayProcessorTests extends AbstractTest {
+class ListProcessorTests extends AbstractTest {
 
     @Test
     void shouldChangeByPlacesFirstAndLastLettersInEachSecondStringOfList() {

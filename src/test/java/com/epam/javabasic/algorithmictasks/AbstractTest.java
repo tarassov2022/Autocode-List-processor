@@ -1,6 +1,6 @@
 package com.epam.javabasic.algorithmictasks;
 
-import com.epam.javabasic.algorithmictasks.impl.ArrayProcessor;
+import com.epam.javabasic.algorithmictasks.impl.ListProcessor;
 import org.junit.jupiter.api.BeforeEach;
 
 /**
@@ -8,10 +8,10 @@ import org.junit.jupiter.api.BeforeEach;
  */
 abstract class AbstractTest {
 
-	IArrayProcessor testClass;
+	IListProcessor testClass;
 
 	@BeforeEach
 	void setUp() {
-		testClass = new ArrayProcessor();
+		testClass = new ListProcessor();
 	}
 }

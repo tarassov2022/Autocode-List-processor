@@ -1,7 +1,5 @@
 package com.epam.javabasic.algorithmictasks;
 
-import com.epam.javabasic.algorithmictasks.exception.ArrayProcessorException;
-
 import java.util.List;
 
 /**
@@ -9,7 +7,7 @@ import java.util.List;
  * <p>
  * Created by anton_chyrko on 12/21/20.
  */
-public interface IArrayProcessor {
+public interface IListProcessor {
 
 	String getSecondStringByLength(List<String> list);
 

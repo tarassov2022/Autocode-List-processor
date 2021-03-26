@@ -11,7 +11,7 @@ import java.util.List;
  *
  * Created by anton_chyrko on 9/24/20.
  */
-public class ArrayProcessor {
+public class ListProcessor {
 
 	/**
 	 * Find the second by length string in a list.

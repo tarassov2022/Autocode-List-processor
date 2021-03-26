@@ -1,6 +1,6 @@
 package com.epam.javabasic.algorithmictasks.impl;
 
-import com.epam.javabasic.algorithmictasks.IArrayProcessor;
+import com.epam.javabasic.algorithmictasks.IListProcessor;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ import java.util.List;
  *
  * Created by anton_chyrko on 9/24/20.
  */
-public class ArrayProcessor implements IArrayProcessor {
+public class ListProcessor implements IListProcessor {
 
 	/**
 	 * Find the second by length string in a list.
