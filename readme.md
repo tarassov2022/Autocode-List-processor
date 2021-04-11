@@ -1,8 +1,8 @@
 # List processor
 
-### Goals
-- Practice in collections processing.
-- Practice in java stream API.
+### Abilities
+- Able to work with collections in Java.
+- Able to work with Java Stream API.
 
 ### Short description
 Implement functions to process collection. All methods must work with list of String. To facilitate work all string can contain
@@ -12,7 +12,7 @@ In case of incorrect input values or inability to perform an action, the method 
 Please see readme.md  file in skeleton repository for detailed instructions.
 
 
-### Detailed description
+### Detailed instructions
 In case of incorrect input values or inability to perform an action, the method should throw the `ListProcessorException.java`
 exception.
 
@@ -72,8 +72,8 @@ input: `{"Puma", "Nike", "Timberland", "Adidas"}`
 
 output: `{"Puma", "eikN", "Timberland", "sdidaA"}`
 
-## List<String> revertStringsOfList(List<String> list);
-Revert strings of list.
+## List<String> reverseStringsOfList(List<String> list);
+Reverse strings of list.
 
 *Example*
 
