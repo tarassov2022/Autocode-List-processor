@@ -20,11 +20,11 @@ class ListProcessorTests extends AbstractTest {
     }
 
     @Test
-    void shouldRevertStringsOfList() {
+    void shouldReverseStringsOfList() {
         List<String> inputList = asList("bb", "ab1", "b", "Bab3", "bb33 3B", "bB333", "b3b");
         List<String> expectedList = asList("bb", "1ba", "b", "3baB", "B3 33bb", "333Bb", "b3b");
 
-        List<String> actualString = testClass.revertStringsOfList(inputList);
+        List<String> actualString = testClass.reverseStringsOfList(inputList);
 
         Assertions.assertEquals(expectedList, actualString, "Wrong result of method");
     }

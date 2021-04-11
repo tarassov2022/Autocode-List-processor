@@ -113,7 +113,7 @@ public class ListProcessor implements IListProcessor {
 	 * @return sort list by string length
 	 */
 	@Override
-	public List<String> revertStringsOfList(List<String> list) {
+	public List<String> reverseStringsOfList(List<String> list) {
 		throw new UnsupportedOperationException("You need to implement this method");
 	}
 }

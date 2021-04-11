@@ -14,5 +14,5 @@ public interface IListProcessor {
 
 	List<String> changeByPlacesFirstAndLastSymbolsInEachSecondStringOfList(List<String> list);
 
-	List<String> revertStringsOfList(List<String> list);
+	List<String> reverseStringsOfList(List<String> list);
 }
