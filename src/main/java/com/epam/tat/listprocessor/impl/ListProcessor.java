@@ -163,7 +163,7 @@ public class ListProcessor implements IListProcessor {
 	@Override
 	public List<String> reverseStringsOfList(List<String> list) {
 		if (list==null) throw new ListProcessorException("The list is null");
-		if (list.isEmpty()||list.contains("")) throw new ListProcessorException("The list is empty or contains empty element");
+		if (list.isEmpty()||list.contains("")) throw new ListProcessorException("The list is empty or contains empty elements");
 		List <String> listReversed =new ArrayList<>();
 		for (String listElement: list){
 			if (listElement.length() < 2) listReversed.add(listElement);
